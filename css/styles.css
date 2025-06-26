@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.div1{
+    width: 100%;
+    height: 104px;
+   background-color:#171d25;
+   position: fixed;
+}
+
+.div2{
+    width: 40%;
+    height: 100%;
+    margin-left: 29%;
+   padding-top: 27px;
+}
+
+.div3{
+    color:white;
+    display: inline-block;
+    position: relative;
+    top: -16px;
+    left: 40px;
+}
+.div3 a{
+    margin-left: 0px;
+}
+.div3 a:hover{
+color:white;
+}
+
+.div4{
+    display: inline-block;
+    position: relative;
+    left: 60px;
+    top: -50px;
+}
+
+.div5{
+    background-color:#6c9018;
+    position: relative;
+    top: 8px;
+    height: 20px;
+}
+.div5:hover{
+    background-color:#7ba716; 
+}
+.div5 a{
+   font-size: 15px; 
+}
+
+.div6{
+    background-color:#dcdedf ;
+    color:#dcdedf ;
+    font-size: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 195px;
+    top: 14px;
+
+}
+
+.div7{
+    position: relative;
+    top: -10px;
+    left: 205px;
+}
+button{
+    background-color:#2a3543;
+    color:#dcdedf;
+}
+.storeDropdown{
+   background-color:rgb(85, 85, 85);
+   width: 140px;
+   position: absolute;
+   left:952px;
+   top: 70px;
+   display: none;
+   text-indent: 10px;
+}
+.storeDropdown a{
+display: block;
+margin-top: 10px;
+font-size: 15px;
+}
+
+.communityDropdown{
+    background-color:rgb(85, 85, 85);
+    width: 150px;
+    position: absolute;
+    left: 1050px;
+    top: 70px;
+    display: none;
+    text-indent: 10px;
+    
+}
+.communityDropdown a{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.languageDropdown{
+    background-color:rgb(85, 85, 85) ;
+    width: 305px;
+    position: absolute;
+    left: 1445px;
+    top: 25px;
+    display: none;
+    text-indent: 10px;
+    
+}
+.languageDropdown a{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+a{
+    font-size: 25px;
+    color: #dcdedf;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.mainPageLink{
+    color:#dcdedf ;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    left: 8px;
+    top: -18px;
+}
+
+.loginLink{
+    position: absolute;
+    left: 150px;
+    font-size: 15px;
+    top: 10px;
+}
+
+.circleSteamImage{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 8px;
+}
+
+.handImage{
+    width: 15px ;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.triangleImage{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    left: -4px;
+    transform: rotate(103deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
