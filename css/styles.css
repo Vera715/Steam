@@ -10,6 +10,12 @@
    position: fixed;
 }
 
+.page_background_holder{
+    background-color: rgb(36, 58, 79);
+    width: 2546px;
+    height: 7944px;
+}
+
 .div2{
     width: 40%;
     height: 100%;
@@ -69,8 +75,160 @@ color:white;
 }
 button{
     background-color:#2a3543;
-    color:#dcdedf;
+    color:#b8b6b4;
+} 
+button:hover{
+    color: whitesmoke;
 }
+
+.home_page_gutter_block{
+    width: 210px;
+    height: 484px;
+    position: absolute;
+    top:365px;
+    left: 500px;
+    right: 500px;
+    bottom: 500px;
+}
+.home_page_gutter_block_top{
+    width: 210px;
+    height: 90px;
+}
+.home_page_gutter_block_top a:hover{
+    color:rgb(214, 214, 214);
+}
+.promo_text{
+    width: 143px;
+    height: 17px;
+    position: relative;
+    top: 25px;
+}
+.promo_text a:hover{
+    color:rgb(214, 214, 214);
+}
+.giftCardsLink1{
+    font-size: 14px;
+    color: #78abd4;
+    font-weight: bold;
+    font-family: Verdana;
+    position: relative;
+    top: -23px;
+}
+.giftCardsLink2{
+    font-size: 12px;
+    color: #a4b3c4;
+    font-family: Verdana;
+}
+
+.home_gutter_recentlyviewed{
+    width: 178px;
+    height: 87px;
+    position: relative;
+    top: 65px;
+}
+.gutter_header_pad{
+    color: #536f86;
+    width: 178px;
+    height: 32px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 4px;
+}
+.gutter_item_ds_no_flags_app_impression_tracked{
+    width: 164px;
+    height: 16px;
+    position: relative;
+    top: 10px;
+}
+.gutter_item_ds_no_flags_app_impression_tracked a:hover{
+    color:rgb(173, 173, 173);
+}
+.viewedGameLink{
+    color: #7a8b9d;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.gutter_header{
+    color: #536f86;
+    width: 210px;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: relative;
+    top: 65px;
+}
+.gutter_items{
+    width: 210px;
+    height: 60px;
+    position: relative;
+    top: 5px;
+}
+.gutter_items a{
+    color: #7A8B9D;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 5px;
+}
+.gutter_items a:hover{
+    color:rgb(173, 173, 173);
+}
+
+
+.gutter_header_pad2{
+    color: #536f86;
+    width: 210px;
+    height: 16px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    top: 152px;
+}
+.gutter_header_pad2 a{
+    color: #7a8b9d;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: block;
+}
+.gutter_items2{
+    position: relative;
+    top: 5px;
+}
+.gutter_items2 a{
+    margin-top: 5px;
+}
+.gutter_items2 a:hover{
+    color:rgb(173, 173, 173);
+}
+.home_page_gutter_block2{
+    width: 210px;
+    height: 237px;
+    position: absolute;
+    top:906px;
+    left: 500px;
+}
+.home_page_gutter_block2 a{
+color: #7a8b9d;
+font-size: 12px;
+font-family: sans-serif;
+display: block;
+margin-top: 5px;
+}
+.home_page_gutter_block2 a:hover{
+    color: rgb(173, 173, 173);
+}
+.gutter_header_pad3{
+    color: #536f86;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
 .storeDropdown{
    background-color:rgb(85, 85, 85);
    width: 140px;
@@ -136,15 +294,20 @@ a{
 }
 
 .loginLink{
+    color: #b8b6b4;
     position: absolute;
     left: 150px;
     font-size: 15px;
     top: 10px;
 }
 
+.loginLink:hover{
+    color: whitesmoke;
+}
+
 .circleSteamImage{
     width: 55px;
-    height: 55px;
+    height: px;
     position: relative;
     left: 8px;
 }
@@ -163,6 +326,14 @@ a{
     top: 0px;
     left: -4px;
     transform: rotate(103deg);
+}
+
+.giftCardsImage{
+    width: 110px;
+    transform: rotate(15deg);
+    position: relative;
+    top: -20px;
+
 }
 
 
