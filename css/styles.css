@@ -3,11 +3,38 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.div1{
+.global_header{
     width: 100%;
     height: 104px;
    background-color:#171d25;
    position: fixed;
+}
+
+.small_footer{
+    background-color: #000000;
+    width: 2546px;
+    height: 230px;
+    position: fixed;
+    top: 1030px;
+}
+.footer_content{
+    width: 940px;
+    height: 154px;
+    position: relative;
+    top: 15px;
+    left: 780px;
+}
+.rule1{
+    background-color: #7a8187;
+    width: 940px;
+    height: 1px;
+}
+.rule2{
+    background-color: #7a8187;
+    width: 940px;
+    height: 1px;
+    position: relative;
+    top: -30px;
 }
 
 .page_background_holder{
@@ -59,7 +86,8 @@ color:white;
 
 .div6{
     background-color:#dcdedf ;
-    color:#dcdedf ;
+    width: 1.4px;
+    height: 10px;
     font-size: 10px;
     display: inline-block;
     position: absolute;
@@ -84,8 +112,8 @@ button:hover{
 .home_page_gutter_block{
     width: 210px;
     height: 484px;
-    position: absolute;
-    top:365px;
+    position: fixed;
+    top:160px;
     left: 500px;
     right: 500px;
     bottom: 500px;
@@ -97,6 +125,264 @@ button:hover{
 .home_page_gutter_block_top a:hover{
     color:rgb(214, 214, 214);
 }
+
+.text_line1{
+    color: #8f98a0;
+    width:928px;
+    height:16px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -32px;
+    left: 12px;
+}
+
+.text_line2_with_links{
+    color: #8f98a0;
+    width:928px;
+    height:32px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:-30px;
+    left:12px;
+   
+}
+.text_line2_with_links a{
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -14px;
+    left: 260px;
+    margin-left: 8px;
+}
+.text_line2_with_links a:hover{
+    color: whitesmoke;
+}
+
+.doodle1{
+    background-color: #8f98a0;
+    width: 1.4px;
+    height: 10px;
+    position: relative;
+    top: -26px;
+    left: 455px;
+}
+.doodle2{
+    background-color: #8f98a0;
+    width: 1.4px;
+    height: 10px;
+    position: relative; 
+    top: -36px;
+    left: 605px;
+}
+.doodle3{
+    background-color: #8f98a0;
+    width: 1.4px;
+    height: 10px;
+    position: relative; 
+    top: -46px;
+    left: 802px;
+}
+.doodle4{
+    background-color: #8f98a0;
+    width: 1.4px;
+    height: 10px;
+    position: relative; 
+    top:-56px;
+    left: 878px;
+}
+
+.cookies{
+    color: #c6d4df;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -49px;
+    left: 17px;
+}
+.cookies:hover{
+ color: whitesmoke;
+}
+
+.valve_link{
+    background-color: #00000000;
+    width:99px;
+    height:15px;
+    position: relative;
+    top: -47px;
+}
+.valve_link a{
+    font-size: 25px;
+    color: #00000000;
+    position: relative;
+    left: -33px;
+}
+
+.valve_links{
+    width: 964px;
+    height: 18px;
+    position: relative;
+    left: -24px;
+    top: -10px;
+}
+.valve_links a{
+    color: #c6d4df;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+.valve_link1:hover{
+    color: whitesmoke;
+}
+.valve_link2:hover{
+    color: whitesmoke;
+}
+.valve_link3:hover{
+    color: whitesmoke;
+}
+.valve_link4:hover{
+    color: whitesmoke;
+}
+.valve_link5:hover{
+    color: whitesmoke;
+}
+.valve_link6:hover{
+    color: whitesmoke;
+}
+.doodle5{
+    background-color: #61686d;
+    width: 1.4px;
+    height: 14px;
+    position: relative;
+    top: -15px;
+    left: 97px;
+}
+.doodle6{
+    background-color: #61686d;
+    width: 1.4px;
+    height: 14px;
+    position: relative;
+    top: -29px;
+    left: 198px;
+}
+.doodle7{
+    background-color: #61686d;
+    width: 1.4px;
+    height: 14px;
+    position: relative;
+    top: -43px;
+    left: 302px;
+}
+.doodle8{
+    background-color: #61686d;
+    width: 1.4px;
+    height: 14px;
+    position: relative;
+    top: -57px;
+    left: 466px;
+}
+.doodle9{
+    background-color: #61686d;
+    width: 1.4px;
+    height: 14px;
+    position: relative;
+    top: -71.5px;
+    left: 625px;
+}
+.doodle10{
+   background-color: #61686d;
+   width: 1.4px;
+   height: 14px; 
+   position: relative;
+   top: -85px;
+   left: 785px;
+}
+.doodle11{
+   background-color: #61686d;
+   width: 1.4px;
+   height: 14px; 
+   position: relative;
+   top: -99px;
+   left: 838px;
+}
+.doodle12{
+   background-color: #61686d;
+   width: 1.4px;
+   height: 14px; 
+   position: relative;
+   top: -113px;
+   left: 895px;
+}
+
+.facebook_icon{
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: -129px;
+    left: 801px;
+}
+.facebook_icon a{
+    color: #00000000;
+    font-size: 10px;
+    position: relative;
+    top: -20px;
+    left: -35px;
+}
+.facebook_icon_image{
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 0px;
+}
+
+.twitter_icon{
+    width:17px;
+    height: 17px;
+    position: relative;
+    top: -145px;
+    left: 858px;
+}
+.twitter_icon a{
+    color: #00000000;
+    font-size: 20px;
+    position: relative;
+    top: -35px;
+    left: -40px;
+}
+.twitter_icon_image{
+    width: 35px;
+    height: 27px;
+    position: relative;
+    top: -5px;
+    left: -9px;
+}
+
+.bluesky_icon{
+    width:17px;
+    height:17px;
+    position: relative;
+    top: -162px;
+    left: 916px;
+}
+.bluesky_icon a{
+color: #00000000;
+font-size: 17px;
+position: relative;
+top: -25px;
+left: -39px;
+
+}
+.bluesky_icon_image{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
 .promo_text{
     width: 143px;
     height: 17px;
@@ -208,16 +494,18 @@ button:hover{
 .home_page_gutter_block2{
     width: 210px;
     height: 237px;
-    position: absolute;
-    top:906px;
+    position: fixed;
+    top:700px;
     left: 500px;
 }
 .home_page_gutter_block2 a{
-color: #7a8b9d;
-font-size: 12px;
-font-family: sans-serif;
-display: block;
-margin-top: 5px;
+    color: #7a8b9d;
+    font-size: 12px;
+    font-family: sans-serif;
+    display: block;
+    margin-top: 5px;
+    position: relative;
+    top: 5px;
 }
 .home_page_gutter_block2 a:hover{
     color: rgb(173, 173, 173);
@@ -239,9 +527,9 @@ margin-top: 5px;
    text-indent: 10px;
 }
 .storeDropdown a{
-display: block;
-margin-top: 10px;
-font-size: 15px;
+   display: block;
+   margin-top: 10px;
+   font-size: 15px;
 }
 
 .communityDropdown{
@@ -305,11 +593,40 @@ a{
     color: whitesmoke;
 }
 
-.circleSteamImage{
+.circleSteamLogoImage{
     width: 55px;
     height: px;
     position: relative;
     left: 8px;
+}
+
+.footer_logo_steam{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 838px;
+    
+}
+.steam_logo2_Image{
+    width:110px ;
+    height:110px ;
+    position: relative;
+    top: -40px;
+    left: -5px;
+   
+}
+
+.footer_logo{
+   background-color:#c7cace; 
+   width: 95px;
+   height: 33px;
+   position: relative;
+   top: -20px;
+}
+.valve_logo_image{
+width: 100px;
+height: 33px;
 }
 
 .handImage{
